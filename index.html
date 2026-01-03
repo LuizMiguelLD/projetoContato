@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/830c3c7495.js" crossorigin="anonymous"></script>
+
+    <title>Contato</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="contato">
+            <h1>CONTATO</h1>
+            <div class="contentContato">
+                <p>Bem vindo a página de contato! Aqui você pode mandar suas dúvidas, problemas encontrados, soluções ou
+                    outras coisas do gênero.
+                    Também sinta se avontade em deixar suas opiniões do que pode ser melhorado ou não em nosso site!
+                </p>
+            </div>
+        </div>
+        <div class="background">
+            <img src="images/imageSuporte.png" alt="background">
+        </div>
+    </div>
+    <div class="cardContent">
+        <div class="card">
+            <div class="cardText">
+                <h1>Opiniões</h1>
+                <p>Diga sua opinião do que achou dos nossos serviços e página WEB</p>
+            </div>
+            <div class="cardImage">
+                <img src="images/estrela.png">
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="cardText">
+                <h1>Problemas</h1>
+                <p>Cite os problemas que encontrou enquanto caminhava pelo site</p>
+            </div>
+            <div class="cardImage">
+                <img src="images/erro.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardText">
+                <h1>Avaliações</h1>
+                <p>Faça suas avaliações e recomendações para nossa empresa</p>
+            </div>
+            <div class="cardImage">
+                <img src="images/empresa.png">
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h1>FALE CONOSCO!</h1>
+        <div class="contentForm">
+            <div class="divForm">
+                <h1>Informações</h1>
+                <form>
+                    <div>
+                        <div>
+                            <input type="text" id="nome" placeholder="Nome">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <input type="text" id="sobrenome" placeholder="Sobrenome">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="formLabelData">
+                            <label>Data de Nascimento</label>
+                        </div>
+                        <div>
+                            <input type="date" id="dataNascimento">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="formLabel">
+                            <label>Telefone</label>
+                        </div>
+                        <div>
+                            <input type="tel" id="telefone">
+                        </div>
+                    </div>
+                    <div class="divAssunto">
+                        <div class="formLabel">
+                            <label>Assunto</label>
+                        </div>
+                        <div>
+                            <select id="assunto">
+                                <option>Sugestão</option>
+                                <option>Dúvida</option>
+                                <option>Problema</option>
+                                <option>Opinião</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="divMensagem">
+                        <div class="formLabelMensagem">
+                            <label>Mensagem</label>
+                        </div>
+                        <div>
+                            <input type="text" id="mensagem">
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="botao">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div id="resultado">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
