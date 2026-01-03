@@ -1,0 +1,316 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+
+    font-family: monospace;
+}
+
+/*  CONTATO - 1 PARTE    */
+
+.main {
+    display: flex;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(3, 2, 29);
+    color: white
+}
+
+.contato h1 {
+    font-size: 35px;
+    font-family: 'Times New Roman';
+
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.contentContato {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    width: 50%;
+}
+
+.contentContato p {
+    font-size: 30px;
+    font-family: 'Times New Roman';
+
+    text-align: center;
+}
+
+.background {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(3, 2, 29);
+}
+
+.background img {
+    width: 100%;
+    height: 90%;
+}
+
+/* CARD - 2 PARTE */
+
+.cardContent {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+    background-color: rgb(4, 5, 40);
+    width: 100%;
+    height: 40vh;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+
+    margin-right: 15px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 30%;
+    height: 100%;
+}
+
+.cardText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 40px;
+    padding-left: 10px;
+
+    height: 100%;
+    width: 50%;
+}
+
+.cardText h1 {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.cardText p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.cardImage {
+    height: 80%;
+    width: 50%;
+}
+
+.cardImage img {
+    height: 100%;
+    width: 100%;
+}
+
+/*  FORMULÁRIO - 3 PARTE    */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(3, 2, 29);
+    width: 100%;
+    height: 150vh;
+    padding-bottom: 45px;
+}
+
+.content h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.contentForm {
+    display: flex;
+    flex-direction: row;
+
+    border-radius: 24px;
+    background-color: rgb(225, 226, 255);
+    width: 85%;
+    height: 110vh;
+}
+
+.divForm h1 {
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    height: 100%;
+    border-radius: 23px;
+    background-color: rgb(149, 149, 149);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divMensagem {
+    margin-top: 10px;
+}
+
+form input {
+    width: 400px;
+    height: 20px;
+
+    border-bottom: 2px;
+    border-style: solid;
+
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+
+    border-radius: 0px;
+    border-color: rgb(0, 0, 0);
+
+    color: black;
+
+    background-color: transparent;
+
+    padding-left: 10px;
+    margin-top: 20px;
+
+    transition: 0.2s;
+}
+
+.formLabelData {
+    margin-top: 15px;
+}
+
+#dataNascimento {
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+#telefone {
+    margin-top: 0px;
+}
+
+form input:focus {
+    outline: none;
+    color: rgb(33, 33, 33);
+    border-color: rgb(33, 33, 33);
+}
+
+form input::placeholder {
+    color: black;
+}
+
+form input:focus::placeholder {
+    color: transparent;
+}
+
+.divAssunto {
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+    justify-content: left;
+}
+
+.divAssunto .formLabel {
+    margin-top: 10px;
+}
+
+#assunto {
+    margin-top: 5px;
+    width: 100px;
+
+    border-color: black;
+}
+
+#assunto:focus {
+    outline: none;
+}
+
+#mensagem {
+    width: 400px;
+    height: 50px;
+
+    border: 2px;
+    border-style: solid;
+
+    border-radius: 10px;
+    border-color: rgb(42, 42, 42);
+
+    color: black;
+
+    background-color: white;
+
+    padding-left: 10px;
+
+    transition: 0.2s;
+}
+
+.formLabelMensagem {
+    margin-top: 15px;
+}
+
+.botao {
+    width: 325px;
+    height: 50px;
+    margin-top: 50px;
+
+    border-radius: 100px;
+    border: none;
+
+    background-color: rgb(2, 61, 61);
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.botao:hover {
+    background-color: rgb(5, 106, 106); 
+    cursor: pointer; 
+}
+
+/*  RESULTADO - 4 PARTE    */
+
+#resultado {
+    width: 50%;
+}
+
+#resultado h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+#resultado h3 {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#resultado p {
+    padding-left: 10px;
+    font-size: 15px;
+}
